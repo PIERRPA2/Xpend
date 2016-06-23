@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_novrp_xpend_incident</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>NVS ValidateGroup</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	// Add your code here
+	var userSysID = '8201941d4f511200c161df601310c774';
+	var groupSysID = '620e98a24f555200c161df601310c713';
+	current.description = current.description + userSysID + '-' + groupSysID;
+	//var grmember = new x_novrp_xpend.GlideRecord('sys_user_grmember');
+	var grmember = new x_novrp_xpend.GlideRecord('sys_user_grmember');
+	grmember.addQuery('group', '=', groupSysID);
+	grmember.addQuery('name', '=', userSysID);
+	grmember.query();   // Issue the query to the database to get relevant records
+	while (grmember.next()) {
+		// add code here to process the incident record
+
+		current.description = current.description + ' >>> FOUND GROUP';
+	}
+	
+	gs.error(">>>>>>>This is an error message");
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>mahmud.rahman</sys_created_by>
+        <sys_created_on>2016-02-12 20:33:14</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4c0410616fe91600fbdd82eeae3ee4c3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>NVS ValidateGroup</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Xpend" source="x_novrp_xpend">9dc1be7e4fd95200c161df601310c7a0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
+        <sys_update_name>sys_script_4c0410616fe91600fbdd82eeae3ee4c3</sys_update_name>
+        <sys_updated_by>mahmud.rahman</sys_updated_by>
+        <sys_updated_on>2016-02-12 20:55:22</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=4c0410616fe91600fbdd82eeae3ee4c3"/>
+</record_update>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>NVS Hide Form Section Modified</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	//var sections = g_form.getSectionNames();
+	//alert(sections);
+	hideFormSections();
+	
+	var ticketType = g_form.getValue('u_ticket_type');
+	if (ticketType!=''){
+		//first hide sections
+		hideFormSections();
+		makeCrossBorderFieldsNONVisible();
+		makeCrossBorderFieldsNonMandatory();
+		//now show appropriate form and states
+		if(newValue=='cross_border'){
+			g_form.setSectionDisplay('cross_border', true);
+			makeCrossBorderFieldsVisible();
+			makeCrossBorderFieldsMandatory();
+		}
+		
+		if(ticketType=='business'){
+			g_form.setSectionDisplay('cross_border', false);
+			g_form.setSectionDisplay('business', true);
+			g_form.setSectionDisplay('sla', true);
+		}
+		
+		if(ticketType=='it'){
+			g_form.setSectionDisplay('cross_border', false);
+			g_form.setSectionDisplay('it', true);
+			g_form.setSectionDisplay('sla', true);
+		}
+		
+		if(ticketType=='other'){
+			g_form.setSectionDisplay('cross_border', false);
+			g_form.setSectionDisplay('sla', true);
+		}
+		/*
+		if (ticketType =='cross_border'){
+			g_form.setSectionDisplay('cross_border', true);
+			g_form.setSectionDisplay('sla', false);
+		}
+		
+		if (ticketType =='it'){
+			g_form.setSectionDisplay('it', true);
+		}
+		
+		if (ticketType =='business'){
+			g_form.setSectionDisplay('business', true);
+		}
+		
+		if (ticketType =='other'){
+			hideFormSections();
+		}
+ 		*/
+	}
+	
+	
+	function hideFormSections(){
+		g_form.setSectionDisplay('cross_border', false);
+		g_form.setSectionDisplay('it', false);
+		g_form.setSectionDisplay('business', false);
+		g_form.setSectionDisplay('sla', false);
+		
+	}
+	
+	function makeCrossBorderFieldsMandatory(){
+		g_form.setMandatory('start_date', true);
+		g_form.setMandatory('paying_wave', true);
+		g_form.setMandatory('name_of_cr', true);
+		g_form.setMandatory('end_date', true);
+		g_form.setMandatory('paying_division', true);
+		g_form.setMandatory('paying_country', true);
+		g_form.setMandatory('disclosing_wave', true);
+		g_form.setMandatory('disclosing_division', true);
+		g_form.setMandatory('disclosing_country', true);
+		g_form.setMandatory('contact_detail_spoc_disclosing_country', true);
+		g_form.setMandatory('contact_detail_spoc_payingcountry', true);
+		
+	}
+	
+	function makeCrossBorderFieldsNonMandatory(){
+		g_form.setMandatory('start_date', false);
+		g_form.setMandatory('paying_wave', false);
+		g_form.setMandatory('name_of_cr', false);
+		g_form.setMandatory('end_date', false);
+		g_form.setMandatory('paying_division', false);
+		g_form.setMandatory('paying_country', false);
+		g_form.setMandatory('disclosing_wave', false);
+		g_form.setMandatory('disclosing_division', false);
+		g_form.setMandatory('disclosing_country', false);
+		g_form.setMandatory('contact_detail_spoc_disclosing_country', false);
+		g_form.setMandatory('contact_detail_spoc_payingcountry', false);
+		
+	}
+	
+	function makeCrossBorderFieldsVisible(){
+		g_form.setVisible('start_date', true);
+		g_form.setVisible('paying_wave', true);
+		g_form.setVisible('name_of_cr', true);
+		g_form.setVisible('end_date', true);
+		g_form.setVisible('paying_division', true);
+		g_form.setVisible('paying_country', true);
+		g_form.setVisible('disclosing_wave', true);
+		g_form.setVisible('disclosing_division', true);
+		g_form.setVisible('disclosing_country', true);
+		g_form.setVisible('contact_detail_spoc_disclosing_country', true);
+		g_form.setVisible('contact_detail_spoc_payingcountry', true);
+		
+	}
+	
+	function makeCrossBorderFieldsNONVisible(){
+		g_form.setVisible('start_date', false);
+		g_form.setVisible('paying_wave', false);
+		g_form.setVisible('name_of_cr', false);
+		g_form.setVisible('end_date', false);
+		g_form.setVisible('paying_division', false);
+		g_form.setVisible('paying_country', false);
+		g_form.setVisible('disclosing_wave', false);
+		g_form.setVisible('disclosing_division', false);
+		g_form.setVisible('disclosing_country', false);
+		g_form.setVisible('contact_detail_spoc_disclosing_country', false);
+		g_form.setVisible('contact_detail_spoc_payingcountry', false);
+		
+	}
+	
+	
+	
+	
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>mahmud.rahman</sys_created_by>
+        <sys_created_on>2016-02-16 15:29:03</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8dd477e66f6d9600fbdd82eeae3ee4d4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>NVS Hide Form Section Modified</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Xpend" source="x_novrp_xpend">9dc1be7e4fd95200c161df601310c7a0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
+        <sys_update_name>sys_script_client_8dd477e66f6d9600fbdd82eeae3ee4d4</sys_update_name>
+        <sys_updated_by>mahmud.rahman</sys_updated_by>
+        <sys_updated_on>2016-02-16 15:36:13</sys_updated_on>
+        <table>x_novrp_xpend_incident</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

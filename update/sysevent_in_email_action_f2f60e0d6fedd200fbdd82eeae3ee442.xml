@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>This inbound email action is triggered when an email is sent to ServiceNow and the email is not a reply or forward.&#13;
+&#13;
+&#13;
+This inbound email action can set the following fields on a new Incident:&#13;
+&#13;
+assigned_to&#13;
+priority&#13;
+&#13;
+In addition to being able to explicitly set the values of the above fields within the email, the following is done automatically:&#13;
+&#13;
+1. The Incident caller_id is set to the the user who replied to the email.&#13;
+2. The email subject is set as the Incident short description.&#13;
+3. The whole email is added to the Incident as a comment.&#13;
+4. The Incident category is set to "request".&#13;
+5. The Incident state is set to "1".&#13;
+6. The Incident notify is set to "2".&#13;
+7. The Incident contact type is set to "email".&#13;
+&#13;
+&#13;
+Example email: This email will create a new Incident with the following:&#13;
+&#13;
+1. The Incident caller is set to "Fred Luddy".&#13;
+2. The Incident short description will be set to "Not able to connect to wireless network"&#13;
+3. The whole email body is added to the Incident as a comment.&#13;
+4. The Incident is assigned to "Bow Ruggeri" if the sender has the itil role.&#13;
+5. The Incident category is set to "request".&#13;
+6. The Incident state is set to "1".&#13;
+7. The Incident notify is set to "2".&#13;
+8. The Incident contact type is set to "email".&#13;
+9. The Priority is set to "2" if the sender has the itil role.&#13;
+&#13;
+-----&#13;
+&#13;
+From: 	Fred Luddy &lt;fred.luddy@example.com&gt;&#13;
+Subject: 	Not able to connect to wireless network&#13;
+Date: 	June 11, 2013 1:44:55 PM PDT&#13;
+To: 	        ServiceNow&#13;
+&#13;
+The wireless network has been down for 30 minutes now. &#13;
+&#13;
+assign: Bow Ruggeri&#13;
+&#13;
+-----</description>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from display_value="NVS CrossBorder">f16d9dc14fbd5200c161df601310c7a3</from>
+        <name>NVS Create X-Border Incident</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[//	Note: current.opened_by is already set to the first UserID that matches the From: email address
+
+////////
+/*
+var sentByEmail =email.origemail;
+var myUserObject = new global.NVS_userObjectUtil();
+var retValue = myUserObject.getUserGroup(sentByEmail);
+
+current.description = current.description + 'Email TO: '+ "\n\n" + email.to;
+current.description = current.description + 'Email DIRECT: '+ "\n\n" + email.direct;
+current.description = current.description + 'Email COPIED: '+ "\n\n" + email.copied;
+current.description = current.description + 'Email FROM: '+ "\n\n" + email.from;
+current.description = current.description + 'Email ORIGEMAIL: '+ "\n\n" + email.origemail;
+
+current.description = current.description +' From INBOUND EMAIL'+ '\n' + retValue;
+*/
+
+////////
+current.caller_id = gs.getUserID();
+current.comments = "received from: " + email.origemail + "\n\n" + email.body_text;
+current.short_description = email.subject;
+
+//set the ticket type
+current.u_ticket_type='cross_border';
+//OOB category on creation is Inquiry / Help
+current.category = "inquiry";
+//set the state to Active
+current.state = 2;
+//1 is Do Not Notify and 2 is Send Email
+current.notify = 1;
+current.contact_type = "email";
+
+//set values to search for duplicate Cross Border tickets
+current.email_subject = email.subject.toString().trim();
+current.email_copied = email.copied.toString().trim();
+
+
+if (email.body.assign != undefined)
+	current.assigned_to = email.body.assign;
+
+if (email.importance != undefined) {
+	if (email.importance.toLowerCase() == "high")
+		current.priority = 1;
+}
+
+if (email.body.priority != undefined)
+	current.priority = email.body.priority;
+
+current.insert();]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>mahmud.rahman</sys_created_by>
+        <sys_created_on>2016-02-11 15:45:35</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f2f60e0d6fedd200fbdd82eeae3ee442</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>NVS Create X-Border Incident</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Xpend" source="x_novrp_xpend">9dc1be7e4fd95200c161df601310c7a0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
+        <sys_update_name>sysevent_in_email_action_f2f60e0d6fedd200fbdd82eeae3ee442</sys_update_name>
+        <sys_updated_by>mahmud.rahman</sys_updated_by>
+        <sys_updated_on>2016-02-25 22:09:08</sys_updated_on>
+        <table>x_novrp_xpend_incident</table>
+        <template/>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

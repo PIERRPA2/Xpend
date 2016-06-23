@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Show Form sections based on Ticket Type</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>NVS Display FormSections</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	//var sections = g_form.getSectionNames();
+	//alert(sections);
+	hideFormSections();
+	
+	/*
+	if (g_scratchpad.isItilAdmin == "true"){
+		var sections = g_form.getSectionNames();
+		alert(sections);
+	}
+	*/
+	
+	var ticketType = g_form.getValue('u_ticket_type');
+	if (ticketType!=''){
+		if (ticketType =='cross_border'){
+			g_form.setSectionDisplay('cross_border', true);
+			//g_form.setSectionDisplay('sla', false);
+		}
+		
+		if (ticketType =='it'){
+			//g_form.setSectionDisplay('business-it', true);
+			g_form.setSectionDisplay('business_andit', true);
+		}
+		
+		if (ticketType =='business'){
+			//g_form.setSectionDisplay('business-it', true);
+			//g_form.setSectionDisplay('business_/_it', true);
+			g_form.setSectionDisplay('business_andit', true);
+		}
+		
+		if (ticketType =='other'){
+			hideFormSections();
+		}
+	}
+	
+	
+	function hideFormSections(){
+		g_form.setSectionDisplay('cross_border', false);
+		//g_form.setSectionDisplay('it', false);
+		//g_form.setSectionDisplay('business-it', false);
+		//g_form.setSectionDisplay('business_/_it', false);
+		//g_form.setSectionDisplay('business_and_it', false);
+		g_form.setSectionDisplay('business', false);
+		g_form.setSectionDisplay('business_andit', false);
+		
+	}
+	
+	
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>mahmud.rahman</sys_created_by>
+        <sys_created_on>2016-02-16 16:00:08</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>66ab7fea6f6d9600fbdd82eeae3ee421</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>NVS Display FormSections</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Xpend" source="x_novrp_xpend">9dc1be7e4fd95200c161df601310c7a0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
+        <sys_update_name>sys_script_client_66ab7fea6f6d9600fbdd82eeae3ee421</sys_update_name>
+        <sys_updated_by>mahmud.rahman</sys_updated_by>
+        <sys_updated_on>2016-02-29 18:08:11</sys_updated_on>
+        <table>x_novrp_xpend_incident</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

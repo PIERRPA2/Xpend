@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>contact_detail_spoc_disclosing_country</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>mahmud.rahman</sys_created_by>
+        <sys_created_on>2016-02-16 16:25:18</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c5b188be6f6d9600fbdd82eeae3ee405</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>contact_detail_spoc_disclosing_country</sys_name>
+        <sys_package display_value="Xpend" source="x_novrp_xpend">9dc1be7e4fd95200c161df601310c7a0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c5b188be6f6d9600fbdd82eeae3ee405</sys_update_name>
+        <sys_updated_by>mahmud.rahman</sys_updated_by>
+        <sys_updated_on>2016-03-08 21:42:37</sys_updated_on>
+        <table>x_novrp_xpend_incident</table>
+        <ui_policy display_value="NVS Show Cross-Border Fields">36af3b2e6f6d9600fbdd82eeae3ee447</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

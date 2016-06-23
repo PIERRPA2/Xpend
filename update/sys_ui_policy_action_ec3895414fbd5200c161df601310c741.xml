@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>subcategory_2</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>mahmud.rahman</sys_created_by>
+        <sys_created_on>2016-02-23 22:29:31</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ec3895414fbd5200c161df601310c741</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>subcategory_2</sys_name>
+        <sys_package display_value="Xpend" source="x_novrp_xpend">9dc1be7e4fd95200c161df601310c7a0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ec3895414fbd5200c161df601310c741</sys_update_name>
+        <sys_updated_by>mahmud.rahman</sys_updated_by>
+        <sys_updated_on>2016-02-23 22:29:31</sys_updated_on>
+        <table>x_novrp_xpend_incident</table>
+        <ui_policy display_value="NVS Show IT Category">21bb454d4f7d5200c161df601310c758</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

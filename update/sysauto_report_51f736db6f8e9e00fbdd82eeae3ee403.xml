@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list/>
+        <condition/>
+        <conditional>false</conditional>
+        <group_list/>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <name>Scheduled Execution of NVS Business Incident List</name>
+        <omit_if_no_records>false</omit_if_no_records>
+        <output_type>Excel</output_type>
+        <report display_value="NVS Business Incident List">95077a5b6f8e9e00fbdd82eeae3ee42e</report>
+        <report_body/>
+        <report_title>Daily </report_title>
+        <run_as display_value="Mahmud Rahman">8201941d4f511200c161df601310c774</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2016-03-14 15:29:56</run_start>
+        <run_time>1970-01-01 05:00:00</run_time>
+        <run_type>daily</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>mahmud.rahman</sys_created_by>
+        <sys_created_on>2016-03-14 15:32:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>51f736db6f8e9e00fbdd82eeae3ee403</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Scheduled Execution of NVS Business Incident List</sys_name>
+        <sys_package display_value="Xpend" source="x_novrp_xpend">9dc1be7e4fd95200c161df601310c7a0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
+        <sys_update_name>sysauto_report_51f736db6f8e9e00fbdd82eeae3ee403</sys_update_name>
+        <sys_updated_by>mahmud.rahman</sys_updated_by>
+        <sys_updated_on>2016-03-14 15:32:51</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list>322a1efc6f7d9200fbdd82eeae3ee41d,c32c13874f519200c161df601310c76e</user_list>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>

@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2016-06-23 15:46:45">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>x_novrp_xpend.user,x_novrp_xpend_prob.user</read_roles>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>mahmud.rahman</sys_created_by>
+        <sys_created_on>2016-02-29 23:16:57</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab5c140b6f7d9600fbdd82eeae3ee4dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Xpend Homepage</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Xpend" source="x_novrp_xpend">9dc1be7e4fd95200c161df601310c7a0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
+        <sys_update_name>sys_portal_page_ab5c140b6f7d9600fbdd82eeae3ee4dc</sys_update_name>
+        <sys_updated_by>mahmud.rahman</sys_updated_by>
+        <sys_updated_on>2016-02-29 23:16:57</sys_updated_on>
+        <title>Xpend Homepage</title>
+        <user/>
+        <view>xpendhome</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>3</offset>
+                <page display_value="Xpend Homepage">ab5c140b6f7d9600fbdd82eeae3ee4dc</page>
+                <summary/>
+                <sys_created_by>mahmud.rahman</sys_created_by>
+                <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                <sys_id>62fa8e3c4fc29600c161df601310c748</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>mahmud.rahman</sys_updated_by>
+                <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">62fa8e3c4fc29600c161df601310c748</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>26fa8e3c4fc29600c161df601310c748</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">62fa8e3c4fc29600c161df601310c748</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>2afa8e3c4fc29600c161df601310c748</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">62fa8e3c4fc29600c161df601310c748</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>a2fa8e3c4fc29600c161df601310c748</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>Open Incidents by Assignment (My Groups)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">62fa8e3c4fc29600c161df601310c748</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>a6fa8e3c4fc29600c161df601310c748</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>48bd2085c611228901f08e9896d13069</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">62fa8e3c4fc29600c161df601310c748</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>aafa8e3c4fc29600c161df601310c748</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>ab5c140b6f7d9600fbdd82eeae3ee4dc</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>1</offset>
+                <page display_value="Xpend Homepage">ab5c140b6f7d9600fbdd82eeae3ee4dc</page>
+                <summary/>
+                <sys_created_by>mahmud.rahman</sys_created_by>
+                <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                <sys_id>6afa8e3c4fc29600c161df601310c745</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>mahmud.rahman</sys_updated_by>
+                <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">6afa8e3c4fc29600c161df601310c745</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>22fa8e3c4fc29600c161df601310c746</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>ab5c140b6f7d9600fbdd82eeae3ee4dc</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">6afa8e3c4fc29600c161df601310c745</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>2efa8e3c4fc29600c161df601310c745</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>83898ef84fc29600c161df601310c7d9</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">6afa8e3c4fc29600c161df601310c745</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>aafa8e3c4fc29600c161df601310c745</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>Incidents Assigned to  me</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">6afa8e3c4fc29600c161df601310c745</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>aefa8e3c4fc29600c161df601310c745</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>1</offset>
+                <page display_value="Xpend Homepage">ab5c140b6f7d9600fbdd82eeae3ee4dc</page>
+                <summary/>
+                <sys_created_by>mahmud.rahman</sys_created_by>
+                <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                <sys_id>6efa8e3c4fc29600c161df601310c746</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>mahmud.rahman</sys_updated_by>
+                <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">6efa8e3c4fc29600c161df601310c746</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>22fa8e3c4fc29600c161df601310c747</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>48ba2bf7c6112289012adac5501ede93</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">6efa8e3c4fc29600c161df601310c746</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>26fa8e3c4fc29600c161df601310c747</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>ab5c140b6f7d9600fbdd82eeae3ee4dc</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">6efa8e3c4fc29600c161df601310c746</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>a2fa8e3c4fc29600c161df601310c747</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">6efa8e3c4fc29600c161df601310c746</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>aefa8e3c4fc29600c161df601310c746</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>&amp;lt;a onmousedown='Event.stop(event); return false;' class='' href='incident_list.do?sysparm_query=assigned_to%3DNULL%5Eassignment_group%3Djavascript%3AgetMyGroups%28%29%5Eactive%3Dtrue%5EEQ'&amp;gt;My Groups Unassigned Incidents&amp;lt;/a&amp;gt;</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="Xpend Homepage">ab5c140b6f7d9600fbdd82eeae3ee4dc</page>
+                <summary/>
+                <sys_created_by>mahmud.rahman</sys_created_by>
+                <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                <sys_id>e2fa8e3c4fc29600c161df601310c746</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>mahmud.rahman</sys_updated_by>
+                <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">e2fa8e3c4fc29600c161df601310c746</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>26fa8e3c4fc29600c161df601310c746</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>Incident Summary Counts</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">e2fa8e3c4fc29600c161df601310c746</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>2afa8e3c4fc29600c161df601310c746</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">e2fa8e3c4fc29600c161df601310c746</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>a6fa8e3c4fc29600c161df601310c746</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>5fbf4877c611227a016b4be5ddd3a916</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">e2fa8e3c4fc29600c161df601310c746</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>aafa8e3c4fc29600c161df601310c746</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>ab5c140b6f7d9600fbdd82eeae3ee4dc</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>2</offset>
+                <page display_value="Xpend Homepage">ab5c140b6f7d9600fbdd82eeae3ee4dc</page>
+                <summary/>
+                <sys_created_by>mahmud.rahman</sys_created_by>
+                <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                <sys_id>e6fa8e3c4fc29600c161df601310c747</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>mahmud.rahman</sys_updated_by>
+                <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">e6fa8e3c4fc29600c161df601310c747</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>2afa8e3c4fc29600c161df601310c747</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>&amp;lt;a onmousedown='Event.stop(event); return false;' class='' href='x_novrp_xpend_incident_list.do?sysparm_query=opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe%5EEQ&amp;amp;sysparm_view=My+Xpend'&amp;gt;Incidents opened by me&amp;lt;/a&amp;gt;</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">e6fa8e3c4fc29600c161df601310c747</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>2efa8e3c4fc29600c161df601310c747</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">e6fa8e3c4fc29600c161df601310c747</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>aafa8e3c4fc29600c161df601310c747</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>d1f0cb0f4f751600c161df601310c736</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">e6fa8e3c4fc29600c161df601310c747</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>aefa8e3c4fc29600c161df601310c747</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>ab5c140b6f7d9600fbdd82eeae3ee4dc</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="Xpend Homepage">ab5c140b6f7d9600fbdd82eeae3ee4dc</page>
+                <summary/>
+                <sys_created_by>mahmud.rahman</sys_created_by>
+                <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                <sys_id>eafa8ef84fc29600c161df601310c7b8</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>mahmud.rahman</sys_updated_by>
+                <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">eafa8ef84fc29600c161df601310c7b8</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>22fa8e3c4fc29600c161df601310c745</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">eafa8ef84fc29600c161df601310c7b8</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>26fa8e3c4fc29600c161df601310c745</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">eafa8ef84fc29600c161df601310c7b8</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>2efa8ef84fc29600c161df601310c7b8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">eafa8ef84fc29600c161df601310c7b8</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>a2fa8e3c4fc29600c161df601310c745</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>ff70b30f4fb51600c161df601310c78e</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">eafa8ef84fc29600c161df601310c7b8</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>a6fa8e3c4fc29600c161df601310c745</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>ab5c140b6f7d9600fbdd82eeae3ee4dc</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 06/03/2016 17:48:36">eafa8ef84fc29600c161df601310c7b8</portal_section>
+                        <sys_created_by>mahmud.rahman</sys_created_by>
+                        <sys_created_on>2016-03-06 17:48:36</sys_created_on>
+                        <sys_id>aefa8e3c4fc29600c161df601310c744</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mahmud.rahman</sys_updated_by>
+                        <sys_updated_on>2016-03-06 17:48:36</sys_updated_on>
+                        <value>Open Xpend Incidents by Ticket Type</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

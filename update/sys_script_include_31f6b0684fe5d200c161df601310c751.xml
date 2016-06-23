@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_novrp_xpend.NVS_dateUtility</api_name>
+        <client_callable>true</client_callable>
+        <description>Compare two date fields</description>
+        <name>NVS_dateUtility</name>
+        <script><![CDATA[var NVS_dateUtility = Class.create();
+NVS_dateUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	dateCompare: function() {
+		var startDate = this.getParameter('sysparm_startDate');
+		var endDate = this.getParameter('sysparm_endDate');
+		
+		/*
+		var date1 = new x_novrp_xpend.GlideDate();
+		date1.setValue(startDate);
+		
+		var date2 = new x_novrp_xpend.GlideDate();
+		date2.setValue(endDate);
+		
+		var _dateCompare = date1.compareTo(date2);
+ 		*/
+		//
+		var date1 = new GlideDate();
+		date1.setDisplayValue(startDate);
+		var date2 = new GlideDate();
+		date2.setDisplayValue(endDate);
+		
+		duration= new GlideDate.subtract(date1, date2);
+		//gs.info(duration.getDisplayValue());
+		
+		
+		
+		/*
+		gs.warn(">>> aXXXX1 NVS_dateUtility {0}.{1}.{2}", _dateCompare,startDate,endDate);
+		gs.warn(">>> aXXXX2 NVS_dateUtility Date1 {0}", date1.getValue());
+		gs.warn(">>> aXXXX3 NVS_dateUtility Date2 {0}", date2.getValue());
+ 		
+		//gs.warn(">>> bXXXX1 NVS_dateUtility {0}.{1}.{2}", duration.getDisplayValue(),startDate,endDate);
+		gs.warn(">>> bXXXX1 NVS_dateUtility {0}.{1}.{2}", duration.getDayPart(),startDate,endDate);
+		gs.warn(">>> bXXXX2 NVS_dateUtility Date1 {0}", date1.getValue());
+		gs.warn(">>> bXXXX3 NVS_dateUtility Date2 {0}", date2.getValue());
+		*/
+		//return _dateCompare;
+		return duration.getDayPart();
+	},
+	
+	
+	type: 'NVS_dateUtility'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>mahmud.rahman</sys_created_by>
+        <sys_created_on>2016-02-09 20:33:11</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>31f6b0684fe5d200c161df601310c751</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>NVS_dateUtility</sys_name>
+        <sys_package display_value="Xpend" source="x_novrp_xpend">9dc1be7e4fd95200c161df601310c7a0</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
+        <sys_update_name>sys_script_include_31f6b0684fe5d200c161df601310c751</sys_update_name>
+        <sys_updated_by>mahmud.rahman</sys_updated_by>
+        <sys_updated_on>2016-04-01 15:13:38</sys_updated_on>
+    </sys_script_include>
+</record_update>

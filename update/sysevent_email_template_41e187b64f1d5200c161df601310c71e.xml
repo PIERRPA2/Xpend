@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_novrp_xpend_incident</collection>
+        <message><![CDATA[Your incident ${number} has been resolved and will automatically close <mail_script>
+var days = parseInt(gs.getProperty("glide.ui.autoclose.time"));
+var hours = days * 24;
+
+if (days == 0)
+    template.print('now');
+else if (days <= 3)
+    template.print('in ' + hours + ' hour' + ((hours>1) ? 's' : ''));
+else
+    template.print('in ' + days + ' day' + ((days>1) ? 's' : ''));
+</mail_script>. 
+
+Ticket Type: ${u_ticket_type}
+Requested By: ${caller_id}
+Category: ${category}
+Subcategory: ${subcategory}
+Request Type: ${subcategory_2}
+Environment: ${suncategory_3}
+Impact: ${impact}
+Urgency: ${urgency}
+Priority: ${priority}
+
+Comments:
+Additional comments: ${comments}
+<hr/>
+Click here to view Incident: ${URI_REF}]]></message>
+        <message_html/>
+        <message_list/>
+        <message_text/>
+        <name>xpend.incident.ess.resolve</name>
+        <sms_alternate/>
+        <subject>Your incident ${number} has been resolved</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>mahmud.rahman</sys_created_by>
+        <sys_created_on>2016-02-04 20:09:17</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>41e187b64f1d5200c161df601310c71e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>xpend.incident.ess.resolve</sys_name>
+        <sys_package display_value="Xpend" source="x_novrp_xpend">9dc1be7e4fd95200c161df601310c7a0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
+        <sys_update_name>sysevent_email_template_41e187b64f1d5200c161df601310c71e</sys_update_name>
+        <sys_updated_by>mahmud.rahman</sys_updated_by>
+        <sys_updated_on>2016-03-01 14:31:24</sys_updated_on>
+        <sys_version>1</sys_version>
+    </sysevent_email_template>
+</record_update>

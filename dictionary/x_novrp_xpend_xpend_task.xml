@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Xpend Incident Task" max_length="40" name="x_novrp_xpend_xpend_task" sizeclass="12" type="collection">
+        <element label="Xpend Incident" max_length="32" name="xpend_incident" read_only="true" reference="x_novrp_xpend_incident" type="reference"/>
+    </element>
+</database>

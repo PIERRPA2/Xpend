@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_novrp_xpend.NVS_BackfillAssignmentGroup</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>NVS_BackfillAssignmentGroup</name>
+        <script><![CDATA[var NVS_BackfillAssignmentGroup = Class.create();
+NVS_BackfillAssignmentGroup.prototype = {
+	initialize: function() {
+	},
+	
+	AssignmentGroupByTicketType:function() {
+		var gp = ' ';
+		var aStr = current.u_ticket_type;
+		if(current.u_ticket_type=='cross_border'){
+			aStr ='business';
+		}
+		
+		//gs.warn('>>>>X a is  ' + aStr);
+		//type includes SYS ID for giroup types
+		var qStr1 ='active=true^typeLIKE2aafe82a4f555200c161df601310c709^ORtypeLIKE67cfa82a4f555200c161df601310c73f^ORtypeLIKE1cb8ab9bff500200158bffffffffff62';
+		var grp = new GlideRecord('sys_user_group');
+		grp.addEncodedQuery(qStr1);
+		if(current.u_ticket_type!='other'){
+			grp.addQuery('u_ticket_type',aStr);
+		}
+		grp.query();
+		while(grp.next()) {
+			//gs.warn('>>>> inside while');
+			if (gp.length > 0) {
+				//gs.warn('>>>> inside IF');
+				//build a comma separated string of groups if there is more than one
+				gp += (',' + grp.sys_id);
+			}
+			else {
+				//gs.warn('>>>> inside ELSE');
+				gp = grp.sys_id;
+			}
+		}
+		// return Groups where assigned to is in those groups we use IN for lists
+		//gs.warn('>>>> return is '+ 'sys_idIN' + gp);
+		return 'sys_idIN' + gp;
+	},
+	
+	//assignment group qualifier for INCIDENT TASK
+	taskAssignmentGroup:function() {
+		var gp = ' ';
+		
+		//type includes SYS ID for group TYPE
+		var qStr1 ='active=true^typeLIKE2aafe82a4f555200c161df601310c709^ORtypeLIKE67cfa82a4f555200c161df601310c73f^ORtypeLIKE1cb8ab9bff500200158bffffffffff62';
+		var grp = new GlideRecord('sys_user_group');
+		grp.addEncodedQuery(qStr1);
+		
+		grp.query();
+		while(grp.next()) {
+			//gs.warn('>>>> inside while');
+			if (gp.length > 0) {
+				//gs.warn('>>>> inside IF');
+				//build a comma separated string of groups if there is more than one
+				gp += (',' + grp.sys_id);
+			}
+			else {
+				//gs.warn('>>>> inside ELSE');
+				gp = grp.sys_id;
+			}
+		}
+		// return Groups where assigned to is in those groups we use IN for lists
+		//gs.warn('>>>> return is '+ 'sys_idIN' + gp);
+		return 'sys_idIN' + gp;
+	},
+	
+	//assignment group qualifier for problem
+	problemAssignmentGroup:function() {
+		var gp = ' ';
+		
+		//type includes SYS ID for group TYPE
+		var qStr1 ='active=true^typeLIKE2aafe82a4f555200c161df601310c709^ORtypeLIKE67cfa82a4f555200c161df601310c73f^ORtypeLIKE1cb8ab9bff500200158bffffffffff62';
+		var grp = new GlideRecord('sys_user_group');
+		grp.addEncodedQuery(qStr1);
+		
+		grp.query();
+		while(grp.next()) {
+			//gs.warn('>>>> inside while');
+			if (gp.length > 0) {
+				//gs.warn('>>>> inside IF');
+				//build a comma separated string of groups if there is more than one
+				gp += (',' + grp.sys_id);
+			}
+			else {
+				//gs.warn('>>>> inside ELSE');
+				gp = grp.sys_id;
+			}
+		}
+		// return Groups where assigned to is in those groups we use IN for lists
+		//gs.warn('>>>> return is '+ 'sys_idIN' + gp);
+		return 'sys_idIN' + gp;
+	},
+
+
+	
+	
+	
+	type: 'NVS_BackfillAssignmentGroup'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>mahmud.rahman</sys_created_by>
+        <sys_created_on>2016-03-08 00:53:05</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>eb85385d6fce9a00fbdd82eeae3ee4aa</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>NVS_BackfillAssignmentGroup</sys_name>
+        <sys_package display_value="Xpend" source="x_novrp_xpend">9dc1be7e4fd95200c161df601310c7a0</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
+        <sys_update_name>sys_script_include_eb85385d6fce9a00fbdd82eeae3ee4aa</sys_update_name>
+        <sys_updated_by>mahmud.rahman</sys_updated_by>
+        <sys_updated_on>2016-03-11 12:54:07</sys_updated_on>
+    </sys_script_include>
+</record_update>

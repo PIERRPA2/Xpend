@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="template_due_date_from_pe" label="Template Due Date from PE" language="en" table="x_novrp_xpend_incident">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>template_due_date_from_pe</element>
+            <help/>
+            <hint/>
+            <label>Template Due Date from PE</label>
+            <language>en</language>
+            <name>x_novrp_xpend_incident</name>
+            <plural>Template Due Date from PEs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>mahmud.rahman</sys_created_by>
+            <sys_created_on>2016-02-09 18:29:32</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>140b14ec4fa5d200c161df601310c7d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Template Due Date from PE</sys_name>
+            <sys_package display_value="Xpend" source="x_novrp_xpend">9dc1be7e4fd95200c161df601310c7a0</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
+            <sys_update_name>sys_documentation_x_novrp_xpend_incident_template_due_date_from_pe_en</sys_update_name>
+            <sys_updated_by>mahmud.rahman</sys_updated_by>
+            <sys_updated_on>2016-02-09 18:29:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

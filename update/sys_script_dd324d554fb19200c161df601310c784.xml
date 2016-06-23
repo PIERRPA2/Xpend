@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_novrp_xpend_incident</collection>
+        <condition>current.u_ticket_type=='cross_border' &amp;&amp; !gs.isInteractive()</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>NVS Search Duplicate Cross Border</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	//only run if Email subject and cc have value for Cross Border 
+	if(current.email_subject!='None'){
+		var incList ='';
+		var incNum ='';
+		
+		var str = "active=true^u_ticket_type=cross_border";
+		var _emailSub = current.email_subject;
+		var _emailCopied = current.email_copied;
+		
+		var CrossBorderRequest = new GlideRecord("x_novrp_xpend_incident");
+		CrossBorderRequest.addEncodedQuery(str);
+		CrossBorderRequest.addQuery('email_subject',_emailSub);
+		CrossBorderRequest.addQuery('email_copied',_emailCopied);
+		CrossBorderRequest.orderBy('number')
+		CrossBorderRequest.query();
+		var rowCount = CrossBorderRequest.getRowCount();
+		while (CrossBorderRequest.next()) {
+			//Build the list of Incident.  There should only be one since others are closed by this BR
+			incList =  incList + CrossBorderRequest.sys_id + ',';
+			incNum =  incNum + CrossBorderRequest.number + ',';
+		}
+		
+		if(rowCount>0){
+			var incArray = incList.split(',');
+			var incNumArray = incNum.split(',');
+			current.comments =current.comments +'\n'+'Incident : '+current.number + ' has been closed since this is a duplicate of ' +incNumArray[0];
+			current.parent_incident = incArray[0];
+			current.cross_border_ticket_state = 43;
+			current.xpend_sub_state ='duplicate';
+			//set the state to CLOSED -7
+			current.state = 7;
+			current.active = false;
+		}
+		/*
+		else{
+			current.comments = 'Row Count :' + rowCount;
+		}
+ 		*/
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>mahmud.rahman</sys_created_by>
+        <sys_created_on>2016-02-24 15:32:39</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dd324d554fb19200c161df601310c784</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>NVS Search Duplicate Cross Border</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Xpend" source="x_novrp_xpend">9dc1be7e4fd95200c161df601310c7a0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
+        <sys_update_name>sys_script_dd324d554fb19200c161df601310c784</sys_update_name>
+        <sys_updated_by>mahmud.rahman</sys_updated_by>
+        <sys_updated_on>2016-02-25 21:42:43</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=dd324d554fb19200c161df601310c784"/>
+</record_update>

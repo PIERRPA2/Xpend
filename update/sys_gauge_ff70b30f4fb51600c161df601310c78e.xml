@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_gauge">
+    <sys_gauge action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <aggregate>COUNT</aggregate>
+        <attributes/>
+        <fieldname/>
+        <group_field/>
+        <lower_limit/>
+        <name>Open Xpend Incidents by Ticket Type</name>
+        <order/>
+        <other_threshold>-2</other_threshold>
+        <parent/>
+        <query/>
+        <report display_value="Open Xpend Incidents by Ticket Type">76ffefcb4fb51600c161df601310c723</report>
+        <roles/>
+        <stack_field/>
+        <sys_class_name>sys_gauge</sys_class_name>
+        <sys_created_by>mahmud.rahman</sys_created_by>
+        <sys_created_on>2016-03-01 14:42:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ff70b30f4fb51600c161df601310c78e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open Xpend Incidents by Ticket Type</sys_name>
+        <sys_package display_value="Xpend" source="x_novrp_xpend">9dc1be7e4fd95200c161df601310c7a0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
+        <sys_update_name>sys_gauge_ff70b30f4fb51600c161df601310c78e</sys_update_name>
+        <sys_updated_by>mahmud.rahman</sys_updated_by>
+        <sys_updated_on>2016-03-01 14:42:47</sys_updated_on>
+        <tablename>x_novrp_xpend_incident</tablename>
+        <title>Open Xpend Incidents by Ticket Type</title>
+        <type>report</type>
+        <upper_limit/>
+        <url/>
+        <view/>
+    </sys_gauge>
+</record_update>
