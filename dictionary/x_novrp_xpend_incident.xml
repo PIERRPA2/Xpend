@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="email_client=true" audit="true" extends="incident" label="Xpend Incident" max_length="40" name="x_novrp_xpend_incident" sizeclass="1957" text_index="true" type="collection">
+    <element attributes="email_client=true" audit="true" extends="incident" label="Xpend Incident" max_length="40" name="x_novrp_xpend_incident" sizeclass="1958" text_index="true" type="collection">
         <element label="Compliance" max_length="40" name="compliance" type="string"/>
         <element label="Compliant" max_length="40" name="compliant" type="boolean"/>
         <element choice="1" label="Consent Email Sent" max_length="40" name="consent_email_sent" type="choice">
