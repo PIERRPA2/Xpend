@@ -66,7 +66,7 @@
         <page_hdrftr display_value="Default">0ecdb03fc3613000cef73b251eba8f5e</page_hdrftr>
         <report_drilldown/>
         <report_source/>
-        <roles/>
+        <roles>snc_internal</roles>
         <row>active</row>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
@@ -98,7 +98,7 @@
         <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
         <sys_update_name>sys_report_bba224e96f86da00fbdd82eeae3ee407</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2016-06-18 19:12:58</sys_updated_on>
+        <sys_updated_on>2016-08-17 18:09:33</sys_updated_on>
         <table>x_novrp_xpend_incident</table>
         <title>NVS Paying Entity Current Month</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

@@ -10,6 +10,7 @@
             <language>en</language>
             <name>x_novrp_xpend_xpend_task</name>
             <sequence>0</sequence>
+            <sys_class_name/>
             <sys_created_by>mahmud.rahman</sys_created_by>
             <sys_created_on>2016-03-01 15:09:56</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -29,6 +30,7 @@
             <language>en</language>
             <name>x_novrp_xpend_xpend_task</name>
             <sequence>1</sequence>
+            <sys_class_name/>
             <sys_created_by>mahmud.rahman</sys_created_by>
             <sys_created_on>2016-03-01 15:09:56</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -48,6 +50,7 @@
             <language>en</language>
             <name>x_novrp_xpend_xpend_task</name>
             <sequence>2</sequence>
+            <sys_class_name/>
             <sys_created_by>mahmud.rahman</sys_created_by>
             <sys_created_on>2016-03-01 15:09:56</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -67,6 +70,7 @@
             <language>en</language>
             <name>x_novrp_xpend_xpend_task</name>
             <sequence>3</sequence>
+            <sys_class_name/>
             <sys_created_by>mahmud.rahman</sys_created_by>
             <sys_created_on>2016-03-01 15:09:56</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -86,6 +90,7 @@
             <language>en</language>
             <name>x_novrp_xpend_xpend_task</name>
             <sequence>4</sequence>
+            <sys_class_name/>
             <sys_created_by>mahmud.rahman</sys_created_by>
             <sys_created_on>2016-03-01 15:09:56</sys_created_on>
             <sys_domain>global</sys_domain>

@@ -10,6 +10,7 @@
             <language>en</language>
             <name>x_novrp_xpend_incident</name>
             <sequence>0</sequence>
+            <sys_class_name/>
             <sys_created_by>mahmud.rahman</sys_created_by>
             <sys_created_on>2016-02-04 20:49:26</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -29,6 +30,7 @@
             <language>en</language>
             <name>x_novrp_xpend_incident</name>
             <sequence>1</sequence>
+            <sys_class_name/>
             <sys_created_by>mahmud.rahman</sys_created_by>
             <sys_created_on>2016-02-04 20:49:43</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -48,6 +50,7 @@
             <language>en</language>
             <name>x_novrp_xpend_incident</name>
             <sequence>2</sequence>
+            <sys_class_name/>
             <sys_created_by>mahmud.rahman</sys_created_by>
             <sys_created_on>2016-02-04 20:50:14</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -67,6 +70,7 @@
             <language>en</language>
             <name>x_novrp_xpend_incident</name>
             <sequence>3</sequence>
+            <sys_class_name/>
             <sys_created_by>mahmud.rahman</sys_created_by>
             <sys_created_on>2016-02-04 20:50:30</sys_created_on>
             <sys_domain>global</sys_domain>

@@ -3,26 +3,27 @@
     <sys_email_canned_message action="INSERT_OR_UPDATE">
         <active>true</active>
         <body><![CDATA[<p>Dear ${contact_detail_spoc_payingcountry},</p>
-<p>Please find the <a title="link" href="https://ph-collab.eu.novartis.net/sites/GlXpend/Operations/XBorder/Forms/AllItems.aspx?RootFolder&#61;/sites/GlXpend/Operations/XBorder/Download&amp;FolderCTID&#61;0x012000DD52068259EC9A4D812729F556BCADCE&amp;View&#61;%7b7922D8D4-927E-4F5C-8671-D007C92D7448%7d" rel="nofollow">link</a> to the global Spend Upload Template and general instructions for inviting one or several Covered Recipients (CRs) from Ireland:</p>
-<ul><li>${name_of_cr}</li></ul>
-<p>Virtual training for completing the template is available online.<br /> <br /> <br />If this payment is to be cross-charged to another Novartis entity, please report the paying entity as the affiliate that actually made the payment (as per the purchase order). If the cost is to be shared with another Novartis affiliate, please inform us as soon as possible.<br /> <br />Please respect the local guidelines of ${paying_country} when inviting the CR(s). A complete overview of the guidelines is available <a title="here" href="https://ph-collab.eu.novartis.net/sites/GlXpend/Operations/XBorder/Forms/AllItems.aspx?RootFolder&#61;/sites/GlXpend/Operations/XBorder/Download/Transposition" rel="nofollow">here</a>.<br /> <br /> <br />We kindly ask you to return the filled in Spend Upload Template to us by replying to this message no later than ${template_due_date_from_pe}. For this, please ensure that your local privacy laws and regulations allow the transfer of the filled in Spend Upload Template to us. If your submission has any issues, we will contact you again.<br /> <br />In case you have any questions, please refer to our <a title="Q&amp;A" href="https://ph-collab.eu.novartis.net/sites/GlXpend/Operations/XBorder/Forms/AllItems.aspx?RootFolder&#61;/sites/GlXpend/Operations/XBorder/Q%20and%20A&amp;FolderCTID&#61;0x012000DD52068259EC9A4D812729F556BCADCE&amp;View&#61;%7b7922D8D4-927E-4F5C-8671-D007C92D7448%7d" rel="nofollow">Q&amp;A</a> or contact us by replying to this email.</p>
-<p>Sincerely,</p>
-<p>Your Global Xpend CoE Cross-Border Team</p>]]></body>
-        <group/>
+<p>Please be aware that we have received notification of a cross border engagement between ${disclosing_country}/${disclosing_division} and the following CR:</p>
+<ul><li>CR NAME: ${name_of_cr}</li><li>Event Name: ${event_name}</li><li>Project Owner: ${project_owner}</li></ul>
+<p>Please find the <a title="link" href="https://sp-collab.eu.novartis.net/sites/GlXpend/Operations/XBorder/Forms/AllItems.aspx?RootFolder&#61;/sites/GlXpend/Operations/XBorder/Download/Cross%20Border%20Form%20and%20Template&amp;FolderCTID&#61;0x012000DD52068259EC9A4D812729F556BCADCE&amp;View&#61;%7B7922D8D4%2D927E%2D4F5C%2D8671%2DD007C92D7448%7D" target="_blank" rel="nofollow">link</a> to the global Spend Upload Template for providing the payment details for this engagement. (general instructions for completion are also available at this location)</p>
+<p>We kindly ask you to return the filled in Spend Upload Template to us by replying to this message no later than ${template_due_date_from_pe}.  </p>
+<p>For this, please ensure that your local privacy laws and regulations allow the transfer of the filled in Spend Upload Template to us. If your submission has any issues, we will contact you again.<br /> <br />In case you have any questions, please refer to our <a title="Q&amp;A" href="https://sp-collab.eu.novartis.net/sites/GlXpend/Operations/SitePages/XBorder.aspx" target="_blank" rel="nofollow">Q&amp;A</a> or contact us by replying to this email.</p>
+<p>Sincerely,<br />Your Global PLS Cross Border Team</p>]]></body>
+        <group display_value="Xpend PLS Tier 2 - EFPIA Cross Border" name="Xpend PLS Tier 2 - EFPIA Cross Border">b7fff7794f31d200c161df601310c7a8</group>
         <sys_class_name>sys_email_canned_message</sys_class_name>
         <sys_created_by>mahmud.rahman</sys_created_by>
         <sys_created_on>2016-02-08 21:22:53</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>78a87b044fa1d200c161df601310c7e3</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Paying Instructions</sys_name>
         <sys_package display_value="Xpend" source="x_novrp_xpend">9dc1be7e4fd95200c161df601310c7a0</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
         <sys_update_name>sys_email_canned_message_78a87b044fa1d200c161df601310c7e3</sys_update_name>
-        <sys_updated_by>mahmud.rahman</sys_updated_by>
-        <sys_updated_on>2016-02-11 15:23:37</sys_updated_on>
+        <sys_updated_by>laszlotamas.bolya</sys_updated_by>
+        <sys_updated_on>2016-12-05 10:10:00</sys_updated_on>
         <title>Paying Instructions</title>
         <user/>
     </sys_email_canned_message>

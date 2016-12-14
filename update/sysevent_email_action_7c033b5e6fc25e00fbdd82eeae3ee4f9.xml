@@ -69,6 +69,7 @@
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
+        <u_opt_out_for_ntl>false</u_opt_out_for_ntl>
         <weight>0</weight>
     </sysevent_email_action>
 </record_update>

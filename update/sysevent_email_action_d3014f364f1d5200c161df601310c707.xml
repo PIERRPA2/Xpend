@@ -63,6 +63,7 @@
         <sys_version>2</sys_version>
         <template display_value="xpend.incident.itil.role">36e143b64f1d5200c161df601310c7f7</template>
         <type>email</type>
+        <u_opt_out_for_ntl>false</u_opt_out_for_ntl>
         <weight>50</weight>
     </sysevent_email_action>
 </record_update>

@@ -10,6 +10,7 @@
             <language>en</language>
             <name>x_novrp_xpend_incident</name>
             <sequence>0</sequence>
+            <sys_class_name/>
             <sys_created_by>mahmud.rahman</sys_created_by>
             <sys_created_on>2016-02-08 21:00:32</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -29,6 +30,7 @@
             <language>en</language>
             <name>x_novrp_xpend_incident</name>
             <sequence>1</sequence>
+            <sys_class_name/>
             <sys_created_by>mahmud.rahman</sys_created_by>
             <sys_created_on>2016-02-08 21:00:32</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -39,6 +41,86 @@
             <sys_updated_on>2016-02-08 21:00:32</sys_updated_on>
             <value>wave2</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disclosing_wave</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wave 3</label>
+            <language>en</language>
+            <name>x_novrp_xpend_incident</name>
+            <sequence>2</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>MONTGCH4</sys_created_by>
+            <sys_created_on>2016-11-16 05:33:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c10383e4f47e600014bb2f11310c7d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MONTGCH4</sys_updated_by>
+            <sys_updated_on>2016-11-16 05:33:12</sys_updated_on>
+            <value>wave3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disclosing_wave</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wave 4</label>
+            <language>en</language>
+            <name>x_novrp_xpend_incident</name>
+            <sequence>3</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>MONTGCH4</sys_created_by>
+            <sys_created_on>2016-11-16 05:33:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc10383e4f47e600014bb2f11310c7d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MONTGCH4</sys_updated_by>
+            <sys_updated_on>2016-11-16 05:33:12</sys_updated_on>
+            <value>wave4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disclosing_wave</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ROW</label>
+            <language>en</language>
+            <name>x_novrp_xpend_incident</name>
+            <sequence>4</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>MONTGCH4</sys_created_by>
+            <sys_created_on>2016-11-16 05:33:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8010383e4f47e600014bb2f11310c7d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MONTGCH4</sys_updated_by>
+            <sys_updated_on>2016-11-16 05:33:12</sys_updated_on>
+            <value>row</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>disclosing_wave</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Applicable</label>
+            <language>en</language>
+            <name>x_novrp_xpend_incident</name>
+            <sequence>5</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>MONTGCH4</sys_created_by>
+            <sys_created_on>2016-11-16 05:33:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4410383e4f47e600014bb2f11310c7d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MONTGCH4</sys_updated_by>
+            <sys_updated_on>2016-11-16 05:33:12</sys_updated_on>
+            <value>na</value>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>disclosing_wave</element>
             <name>x_novrp_xpend_incident</name>
@@ -47,15 +129,15 @@
             <sys_created_on>2016-02-08 21:00:32</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>7ef3fb804fa1d200c161df601310c786</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_name>disclosing_wave</sys_name>
             <sys_package display_value="Xpend" source="x_novrp_xpend">9dc1be7e4fd95200c161df601310c7a0</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
             <sys_update_name>sys_choice_x_novrp_xpend_incident_disclosing_wave</sys_update_name>
-            <sys_updated_by>mahmud.rahman</sys_updated_by>
-            <sys_updated_on>2016-03-24 13:50:35</sys_updated_on>
+            <sys_updated_by>MONTGCH4</sys_updated_by>
+            <sys_updated_on>2016-11-16 05:33:12</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

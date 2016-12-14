@@ -5,48 +5,48 @@
         <active>true</active>
         <assignment_operator/>
         <condition_script>email.origemail.toLowerCase()!='gxpend.xbordercoe@novartis.com'</condition_script>
-        <description>This inbound email action is triggered when an email is sent to ServiceNow and the email is not a reply or forward.&#13;
-&#13;
-&#13;
-This inbound email action can set the following fields on a new Incident:&#13;
-&#13;
-assigned_to&#13;
-priority&#13;
-&#13;
-In addition to being able to explicitly set the values of the above fields within the email, the following is done automatically:&#13;
-&#13;
-1. The Incident caller_id is set to the the user who replied to the email.&#13;
-2. The email subject is set as the Incident short description.&#13;
-3. The whole email is added to the Incident as a comment.&#13;
-4. The Incident category is set to "request".&#13;
-5. The Incident state is set to "1".&#13;
-6. The Incident notify is set to "2".&#13;
-7. The Incident contact type is set to "email".&#13;
-&#13;
-&#13;
-Example email: This email will create a new Incident with the following:&#13;
-&#13;
-1. The Incident caller is set to "Fred Luddy".&#13;
-2. The Incident short description will be set to "Not able to connect to wireless network"&#13;
-3. The whole email body is added to the Incident as a comment.&#13;
-4. The Incident is assigned to "Bow Ruggeri" if the sender has the itil role.&#13;
-5. The Incident category is set to "request".&#13;
-6. The Incident state is set to "1".&#13;
-7. The Incident notify is set to "2".&#13;
-8. The Incident contact type is set to "email".&#13;
-9. The Priority is set to "2" if the sender has the itil role.&#13;
-&#13;
------&#13;
-&#13;
-From: 	Fred Luddy &lt;fred.luddy@example.com&gt;&#13;
-Subject: 	Not able to connect to wireless network&#13;
-Date: 	June 11, 2013 1:44:55 PM PDT&#13;
-To: 	        ServiceNow&#13;
-&#13;
-The wireless network has been down for 30 minutes now. &#13;
-&#13;
-assign: Bow Ruggeri&#13;
-&#13;
+        <description>This inbound email action is triggered when an email is sent to ServiceNow and the email is not a reply or forward.
+
+
+This inbound email action can set the following fields on a new Incident:
+
+assigned_to
+priority
+
+In addition to being able to explicitly set the values of the above fields within the email, the following is done automatically:
+
+1. The Incident caller_id is set to the the user who replied to the email.
+2. The email subject is set as the Incident short description.
+3. The whole email is added to the Incident as a comment.
+4. The Incident category is set to "request".
+5. The Incident state is set to "1".
+6. The Incident notify is set to "2".
+7. The Incident contact type is set to "email".
+
+
+Example email: This email will create a new Incident with the following:
+
+1. The Incident caller is set to "Fred Luddy".
+2. The Incident short description will be set to "Not able to connect to wireless network"
+3. The whole email body is added to the Incident as a comment.
+4. The Incident is assigned to "Bow Ruggeri" if the sender has the itil role.
+5. The Incident category is set to "request".
+6. The Incident state is set to "1".
+7. The Incident notify is set to "2".
+8. The Incident contact type is set to "email".
+9. The Priority is set to "2" if the sender has the itil role.
+
+-----
+
+From: 	Fred Luddy &lt;fred.luddy@example.com&gt;
+Subject: 	Not able to connect to wireless network
+Date: 	June 11, 2013 1:44:55 PM PDT
+To: 	        ServiceNow
+
+The wireless network has been down for 30 minutes now. 
+
+assign: Bow Ruggeri
+
 -----</description>
         <event_name>email.read</event_name>
         <filter_condition/>

@@ -78,10 +78,11 @@ else
         <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
         <sys_update_name>sc_cat_item_producer_ebf284156f8e9a00fbdd82eeae3ee46f</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2016-06-22 18:16:46</sys_updated_on>
+        <sys_updated_on>2016-08-17 17:49:27</sys_updated_on>
         <table_name>x_novrp_xpend_incident</table_name>
         <template/>
         <type>item</type>
+        <u_template/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
         <view/>

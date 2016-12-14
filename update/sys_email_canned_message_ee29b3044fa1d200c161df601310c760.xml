@@ -2,26 +2,27 @@
 <record_update table="sys_email_canned_message">
     <sys_email_canned_message action="INSERT_OR_UPDATE">
         <active>true</active>
-        <body><![CDATA[<p>Dear ${contact_detail_spoc_disclosing_country}<br />Please be aware that we have received notification of a cross border engagement involving the following Covered Recipient(s) from your affiliate:</p>
+        <body><![CDATA[<p>Dear ${contact_detail_spoc_disclosing_country},</p>
+<p>Please be aware that we have received notification of a cross border engagement involving the following Covered Recipient(s) from your affiliate:</p>
 <ul><li>${name_of_cr}</li></ul>
-<p><br />As the CoE cross border team is not yet able to verify the consent status of this/these CR(s) in Global Xpend, we suggest that you ensure that this/these CR(s) exist in your local system and that consent for disclosure is requested.<br />Please remember that consent management is the responsibility of your affiliate. In case you have any questions, please refer to our <a title="Q&amp;A" href="https://ph-collab.eu.novartis.net/sites/GlXpend/Operations/XBorder/Forms/AllItems.aspx?RootFolder&#61;/sites/GlXpend/Operations/XBorder/Q%20and%20A&amp;FolderCTID&#61;0x012000DD52068259EC9A4D812729F556BCADCE&amp;View&#61;%7b7922D8D4-927E-4F5C-8671-D007C92D7448%7d" rel="nofollow">Q&amp;A</a> or contact us by replying to this email.<br /> </p>
-<p>Sincerely,</p>
-<p>Your Global Xpend CoE Cross-Border Team</p>]]></body>
-        <group/>
+<p>The project owner for this event is as follows: ${project_owner}</p>
+<p>Please ensure this/these CR(s) exist in your local system and that consent for disclosure is requested.</p>
+<p>Please remember that consent management is the responsibility of your affiliate. In case you have any questions, please refer to our <a title="Q&amp;A" href="https://sp-collab.eu.novartis.net/sites/GlXpend/Operations/SitePages/XBorder.aspx" rel="nofollow">Q&amp;A</a> or contact us by replying to this email.<br /><br />Sincerely,<br />Your Global PLS Cross-Border Team</p>]]></body>
+        <group display_value="Xpend PLS Tier 2 - EFPIA Cross Border" name="Xpend PLS Tier 2 - EFPIA Cross Border">b7fff7794f31d200c161df601310c7a8</group>
         <sys_class_name>sys_email_canned_message</sys_class_name>
         <sys_created_by>mahmud.rahman</sys_created_by>
         <sys_created_on>2016-02-08 21:24:31</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>ee29b3044fa1d200c161df601310c760</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Consent Email</sys_name>
         <sys_package display_value="Xpend" source="x_novrp_xpend">9dc1be7e4fd95200c161df601310c7a0</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
         <sys_update_name>sys_email_canned_message_ee29b3044fa1d200c161df601310c760</sys_update_name>
-        <sys_updated_by>mahmud.rahman</sys_updated_by>
-        <sys_updated_on>2016-02-11 15:22:41</sys_updated_on>
+        <sys_updated_by>laszlotamas.bolya</sys_updated_by>
+        <sys_updated_on>2016-12-05 10:09:46</sys_updated_on>
         <title>Consent Email</title>
         <user/>
     </sys_email_canned_message>

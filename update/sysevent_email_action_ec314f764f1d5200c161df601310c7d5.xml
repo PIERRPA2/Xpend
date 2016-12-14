@@ -61,6 +61,7 @@
         <sys_version>2</sys_version>
         <template display_value="xpend.incident.ess.resolve">41e187b64f1d5200c161df601310c71e</template>
         <type>email</type>
+        <u_opt_out_for_ntl>false</u_opt_out_for_ntl>
         <weight>0</weight>
     </sysevent_email_action>
 </record_update>

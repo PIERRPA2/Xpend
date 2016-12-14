@@ -4,47 +4,137 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b2d53f8c0a0a0baa26f6807cfbb3ddd5</list_id>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d76b9f944f6d2200014bb2f11310c768</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>dloo</sys_created_by>
-            <sys_created_on>2010-05-19 23:10:39</sys_created_on>
-            <sys_id>b2d53f930a0a0baa1b5b0282f54f922b</sys_id>
+            <sys_created_by>PIERRPA2</sys_created_by>
+            <sys_created_on>2016-08-26 10:02:53</sys_created_on>
+            <sys_id>db6b9f944f6d2200014bb2f11310c768</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dloo</sys_updated_by>
-            <sys_updated_on>2010-05-19 23:10:39</sys_updated_on>
+            <sys_updated_by>PIERRPA2</sys_updated_by>
+            <sys_updated_on>2016-08-26 10:02:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>description</element>
-            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b2d53f8c0a0a0baa26f6807cfbb3ddd5</list_id>
+            <element>assignable_by</element>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d76b9f944f6d2200014bb2f11310c768</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>dloo</sys_created_by>
-            <sys_created_on>2010-05-19 23:10:39</sys_created_on>
-            <sys_id>b2d53f950a0a0baa756dfb21a6ae25f0</sys_id>
+            <sys_created_by>PIERRPA2</sys_created_by>
+            <sys_created_on>2016-08-26 10:02:53</sys_created_on>
+            <sys_id>5f6b9f944f6d2200014bb2f11310c768</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dloo</sys_updated_by>
-            <sys_updated_on>2010-05-19 23:10:39</sys_updated_on>
+            <sys_updated_by>PIERRPA2</sys_updated_by>
+            <sys_updated_on>2016-08-26 10:02:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>elevated_privilege</element>
-            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b2d53f8c0a0a0baa26f6807cfbb3ddd5</list_id>
+            <element>can_delegate</element>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d76b9f944f6d2200014bb2f11310c768</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>dloo</sys_created_by>
-            <sys_created_on>2010-05-19 23:10:39</sys_created_on>
-            <sys_id>b2d53f960a0a0baa2c460922cfd20f9b</sys_id>
+            <sys_created_by>PIERRPA2</sys_created_by>
+            <sys_created_on>2016-08-26 10:02:53</sys_created_on>
+            <sys_id>df6b9f944f6d2200014bb2f11310c768</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dloo</sys_updated_by>
-            <sys_updated_on>2010-05-19 23:10:39</sys_updated_on>
+            <sys_updated_by>PIERRPA2</sys_updated_by>
+            <sys_updated_on>2016-08-26 10:02:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d76b9f944f6d2200014bb2f11310c768</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>PIERRPA2</sys_created_by>
+            <sys_created_on>2016-08-26 10:02:53</sys_created_on>
+            <sys_id>536b9f944f6d2200014bb2f11310c769</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>PIERRPA2</sys_updated_by>
+            <sys_updated_on>2016-08-26 10:02:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>elevated_privilege</element>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d76b9f944f6d2200014bb2f11310c768</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>PIERRPA2</sys_created_by>
+            <sys_created_on>2016-08-26 10:02:53</sys_created_on>
+            <sys_id>d36b9f944f6d2200014bb2f11310c769</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>PIERRPA2</sys_updated_by>
+            <sys_updated_on>2016-08-26 10:02:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>encryption_context</element>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d76b9f944f6d2200014bb2f11310c768</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>PIERRPA2</sys_created_by>
+            <sys_created_on>2016-08-26 10:02:53</sys_created_on>
+            <sys_id>576b9f944f6d2200014bb2f11310c769</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>PIERRPA2</sys_updated_by>
+            <sys_updated_on>2016-08-26 10:02:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>grantable</element>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d76b9f944f6d2200014bb2f11310c768</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>PIERRPA2</sys_created_by>
+            <sys_created_on>2016-08-26 10:02:53</sys_created_on>
+            <sys_id>d76b9f944f6d2200014bb2f11310c769</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>PIERRPA2</sys_updated_by>
+            <sys_updated_on>2016-08-26 10:02:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>includes_roles</element>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d76b9f944f6d2200014bb2f11310c768</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>PIERRPA2</sys_created_by>
+            <sys_created_on>2016-08-26 10:02:53</sys_created_on>
+            <sys_id>5b6b9f944f6d2200014bb2f11310c769</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>PIERRPA2</sys_updated_by>
+            <sys_updated_on>2016-08-26 10:02:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>suffix</element>
+            <list_id display_value="sys_user_role" element="NULL" name="sys_user_role" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d76b9f944f6d2200014bb2f11310c768</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>PIERRPA2</sys_created_by>
+            <sys_created_on>2016-08-26 10:02:53</sys_created_on>
+            <sys_id>db6b9f944f6d2200014bb2f11310c769</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>PIERRPA2</sys_updated_by>
+            <sys_updated_on>2016-08-26 10:02:53</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>

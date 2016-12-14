@@ -9,15 +9,16 @@
             <label>Pharma</label>
             <language>en</language>
             <name>x_novrp_xpend_incident</name>
-            <sequence>10</sequence>
+            <sequence>0</sequence>
+            <sys_class_name/>
             <sys_created_by>mahmud.rahman</sys_created_by>
             <sys_created_on>2016-02-23 20:04:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>0a0730854f7d5200c161df601310c7b7</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>mahmud.rahman</sys_updated_by>
-            <sys_updated_on>2016-02-23 20:16:56</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>MONTGCH4</sys_updated_by>
+            <sys_updated_on>2016-11-16 05:33:12</sys_updated_on>
             <value>pharma</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -28,15 +29,16 @@
             <label>Alcon</label>
             <language>en</language>
             <name>x_novrp_xpend_incident</name>
-            <sequence>20</sequence>
+            <sequence>1</sequence>
+            <sys_class_name/>
             <sys_created_by>mahmud.rahman</sys_created_by>
             <sys_created_on>2016-02-23 20:17:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>03e9f0c54f7d5200c161df601310c793</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>mahmud.rahman</sys_updated_by>
-            <sys_updated_on>2016-02-23 20:17:15</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>MONTGCH4</sys_updated_by>
+            <sys_updated_on>2016-11-16 05:33:12</sys_updated_on>
             <value>alcon</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -47,15 +49,16 @@
             <label>Sandoz</label>
             <language>en</language>
             <name>x_novrp_xpend_incident</name>
-            <sequence>30</sequence>
+            <sequence>2</sequence>
+            <sys_class_name/>
             <sys_created_by>mahmud.rahman</sys_created_by>
             <sys_created_on>2016-02-23 20:17:40</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c90a78c54f7d5200c161df601310c7a1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>mahmud.rahman</sys_updated_by>
-            <sys_updated_on>2016-02-23 20:17:40</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>MONTGCH4</sys_updated_by>
+            <sys_updated_on>2016-11-16 05:33:12</sys_updated_on>
             <value>sabdoz</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -66,15 +69,16 @@
             <label>NIBR</label>
             <language>en</language>
             <name>x_novrp_xpend_incident</name>
-            <sequence>40</sequence>
+            <sequence>3</sequence>
+            <sys_class_name/>
             <sys_created_by>mahmud.rahman</sys_created_by>
             <sys_created_on>2016-02-23 20:18:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>4a1af0c54f7d5200c161df601310c794</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>mahmud.rahman</sys_updated_by>
-            <sys_updated_on>2016-02-23 20:18:01</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>MONTGCH4</sys_updated_by>
+            <sys_updated_on>2016-11-16 05:33:12</sys_updated_on>
             <value>nibr</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -85,15 +89,16 @@
             <label>HQ</label>
             <language>en</language>
             <name>x_novrp_xpend_incident</name>
-            <sequence>50</sequence>
+            <sequence>4</sequence>
+            <sys_class_name/>
             <sys_created_by>mahmud.rahman</sys_created_by>
             <sys_created_on>2016-02-23 20:18:16</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f52a3c854f7d5200c161df601310c7d3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>mahmud.rahman</sys_updated_by>
-            <sys_updated_on>2016-02-23 20:18:16</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>MONTGCH4</sys_updated_by>
+            <sys_updated_on>2016-11-16 05:33:12</sys_updated_on>
             <value>hq</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -104,15 +109,16 @@
             <label>Global</label>
             <language>en</language>
             <name>x_novrp_xpend_incident</name>
-            <sequence>60</sequence>
+            <sequence>5</sequence>
+            <sys_class_name/>
             <sys_created_by>mahmud.rahman</sys_created_by>
             <sys_created_on>2016-03-03 19:55:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>852bcbb74ff15600c161df601310c760</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>mahmud.rahman</sys_updated_by>
-            <sys_updated_on>2016-03-03 19:55:01</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>MONTGCH4</sys_updated_by>
+            <sys_updated_on>2016-11-16 05:33:12</sys_updated_on>
             <value>global</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">

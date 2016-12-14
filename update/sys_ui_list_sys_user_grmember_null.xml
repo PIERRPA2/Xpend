@@ -4,47 +4,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>user</element>
-            <list_id display_value="sys_user_grmember" element="NULL" name="sys_user_grmember" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4fd73d054f511200c161df601310c738</list_id>
+            <list_id display_value="sys_user_grmember" element="NULL" name="sys_user_grmember" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b308a0064fb16600014bb2f11310c76e</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2013-10-02 14:07:13</sys_created_on>
-            <sys_id>c9b76263b0801100d32242e4872a0baf</sys_id>
+            <sys_created_by>sugandha.t</sys_created_by>
+            <sys_created_on>2016-09-12 17:44:17</sys_created_on>
+            <sys_id>b708a0064fb16600014bb2f11310c76e</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2013-10-02 14:07:13</sys_updated_on>
+            <sys_updated_by>sugandha.t</sys_updated_by>
+            <sys_updated_on>2016-09-12 17:44:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>user.phone</element>
-            <list_id display_value="sys_user_grmember" element="NULL" name="sys_user_grmember" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4fd73d054f511200c161df601310c738</list_id>
+            <element>user.u_hrbp</element>
+            <list_id display_value="sys_user_grmember" element="NULL" name="sys_user_grmember" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b308a0064fb16600014bb2f11310c76e</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2013-10-02 14:07:13</sys_created_on>
-            <sys_id>81b76263b0801100d32242e4872a0bb0</sys_id>
+            <sys_created_by>sugandha.t</sys_created_by>
+            <sys_created_on>2016-09-12 17:44:17</sys_created_on>
+            <sys_id>3b08a0064fb16600014bb2f11310c76e</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2013-10-02 14:07:13</sys_updated_on>
+            <sys_updated_by>sugandha.t</sys_updated_by>
+            <sys_updated_on>2016-09-12 17:44:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>user.mobile_phone</element>
-            <list_id display_value="sys_user_grmember" element="NULL" name="sys_user_grmember" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4fd73d054f511200c161df601310c738</list_id>
+            <element>user.u_manager</element>
+            <list_id display_value="sys_user_grmember" element="NULL" name="sys_user_grmember" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b308a0064fb16600014bb2f11310c76e</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2013-10-02 14:07:13</sys_created_on>
-            <sys_id>05b76263b0801100d32242e4872a0bb0</sys_id>
+            <sys_created_by>sugandha.t</sys_created_by>
+            <sys_created_on>2016-09-12 17:44:17</sys_created_on>
+            <sys_id>bb08a0064fb16600014bb2f11310c76e</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2013-10-02 14:07:13</sys_updated_on>
+            <sys_updated_by>sugandha.t</sys_updated_by>
+            <sys_updated_on>2016-09-12 17:44:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>group.type</element>
+            <list_id display_value="sys_user_grmember" element="NULL" name="sys_user_grmember" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b308a0064fb16600014bb2f11310c76e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>sugandha.t</sys_created_by>
+            <sys_created_on>2016-09-12 17:44:17</sys_created_on>
+            <sys_id>3f08a0064fb16600014bb2f11310c76e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sugandha.t</sys_updated_by>
+            <sys_updated_on>2016-09-12 17:44:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user.phone</element>
+            <list_id display_value="sys_user_grmember" element="NULL" name="sys_user_grmember" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b308a0064fb16600014bb2f11310c76e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>sugandha.t</sys_created_by>
+            <sys_created_on>2016-09-12 17:44:17</sys_created_on>
+            <sys_id>bf08a0064fb16600014bb2f11310c76e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sugandha.t</sys_updated_by>
+            <sys_updated_on>2016-09-12 17:44:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user.mobile_phone</element>
+            <list_id display_value="sys_user_grmember" element="NULL" name="sys_user_grmember" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b308a0064fb16600014bb2f11310c76e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>sugandha.t</sys_created_by>
+            <sys_created_on>2016-09-12 17:44:17</sys_created_on>
+            <sys_id>3308a0064fb16600014bb2f11310c76f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sugandha.t</sys_updated_by>
+            <sys_updated_on>2016-09-12 17:44:17</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>

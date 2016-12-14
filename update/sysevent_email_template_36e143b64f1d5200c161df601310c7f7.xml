@@ -18,7 +18,7 @@ Priority: ${priority}
 
 Comments:
 ${comments}]]></message>
-        <message_html/>
+        <message_html><![CDATA[<div>Short Description: ${short_description}</div><div>Click here to view Incident: ${URI_REF}</div><div><div><hr/></div></div><div></div><div>Ticket Type: ${u_ticket_type}</div><div>Requested By: ${caller_id}</div><div>Category: ${category}</div><div>Subcategory: ${subcategory}</div><div>Request Type: ${subcategory_2}</div><div>Environment: ${suncategory_3}</div><div>Impact: ${impact}</div><div>Urgency: ${urgency}</div><div>Priority: ${priority}</div><div></div><div>Comments:</div><div>${comments}</div>]]></message_html>
         <message_list/>
         <message_text/>
         <name>xpend.incident.itil.role</name>
@@ -29,15 +29,15 @@ ${comments}]]></message>
         <sys_created_on>2016-02-04 20:09:25</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>36e143b64f1d5200c161df601310c7f7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>xpend.incident.itil.role</sys_name>
         <sys_package display_value="Xpend" source="x_novrp_xpend">9dc1be7e4fd95200c161df601310c7a0</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Xpend">9dc1be7e4fd95200c161df601310c7a0</sys_scope>
         <sys_update_name>sysevent_email_template_36e143b64f1d5200c161df601310c7f7</sys_update_name>
-        <sys_updated_by>mahmud.rahman</sys_updated_by>
-        <sys_updated_on>2016-03-01 14:28:24</sys_updated_on>
-        <sys_version>1</sys_version>
+        <sys_updated_by>PIERRPA2</sys_updated_by>
+        <sys_updated_on>2016-08-22 14:06:01</sys_updated_on>
+        <sys_version>2</sys_version>
     </sysevent_email_template>
 </record_update>

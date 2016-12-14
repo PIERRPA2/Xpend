@@ -49,6 +49,7 @@
         <timezone>Europe/Dublin</timezone>
         <timezone_source>task.caller_id.time_zone</timezone_source>
         <type>SLA</type>
+        <u_resolution_sla>false</u_resolution_sla>
         <when_to_cancel>no_match</when_to_cancel>
         <when_to_resume>no_match</when_to_resume>
         <workflow display_value="Default SLA workflow">4b6570360a0a0b3000bbacab877713f2</workflow>
